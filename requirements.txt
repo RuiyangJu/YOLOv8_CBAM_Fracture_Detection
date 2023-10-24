@@ -1,0 +1,8 @@
+onnx
+onnxruntime
+numpy
+Pillow
+streamlit
+matplotlib
+opencv-python
+nvidia-pyindex
