@@ -2,6 +2,6 @@
 
 
 ```
-git clone https://github.com/RuiyangJu/YOLOv8_CBAM_Fracture_Detection
-pip install requirements.txt
+  git clone https://github.com/RuiyangJu/YOLOv8_CBAM_Fracture_Detection
+  pip install -r requirements.txt
 ```
