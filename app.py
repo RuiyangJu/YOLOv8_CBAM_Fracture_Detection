@@ -7,9 +7,8 @@ from matplotlib.colors import TABLEAU_COLORS
 from pathlib import Path
 
 ALLOWED_EXTENSIONS = {"txt", "pdf", "bmp", "png", "jpg", "jpeg", "gif"}
-parent_root = Path(__file__).parent.parent.absolute().__str__()
 h, w = 640, 640
-model_onnx_path = os.path.join(parent_root, "example_model.onnx")
+model_onnx_path = os.path.join("./", "example_model.onnx")
 device = "cuda"
 
 def color_list():
