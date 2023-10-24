@@ -11,6 +11,9 @@
 
 ```
   bash download.sh
+```
+
+```
   bash run_app.sh
 ```
 
