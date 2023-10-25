@@ -4,5 +4,5 @@ numpy
 Pillow
 streamlit
 matplotlib
-opencv-python
+opencv-python-headless
 nvidia-pyindex
