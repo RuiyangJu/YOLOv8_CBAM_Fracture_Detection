@@ -1,5 +1,6 @@
 onnx
 onnxruntime
+gdown
 numpy
 Pillow
 streamlit
