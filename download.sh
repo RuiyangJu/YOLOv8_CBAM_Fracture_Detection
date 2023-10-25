@@ -1,2 +1,1 @@
-gdown 1-lQKHjPK1hrxMiH0W_MEZjoBUxm3HnkU -O ./example_model.zip
-unzip ./example_model.zip -d ./
+gdown https://github.com/RuiyangJu/YOLOv8_CBAM_Fracture_Detection/releases/download/Example_Model/example_model.onnx
