@@ -1,6 +1,6 @@
 # YOLOv8_CBAM_Fracture_Detection
 
-https://yolo-fracture-detection.streamlit.app/
+https://fracture-detection-yolo.streamlit.app/
 
 ```
   git clone https://github.com/RuiyangJu/x-ray_fracture_detection_yolo/
