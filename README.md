@@ -3,7 +3,7 @@
 https://yolo-fracture-detection.streamlit.app/
 
 ```
-  git clone https://github.com/RuiyangJu/x-ray_fracture_detection_yolo/tree/web
+  git clone https://github.com/RuiyangJu/x-ray_fracture_detection_yolo/
 ```
 
 ```
