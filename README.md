@@ -1,7 +1,5 @@
 # YOLOv8_CBAM_Fracture_Detection
 
-https://yolo-fracture-detection.streamlit.app/
-
 ```
   git clone https://github.com/RuiyangJu/YOLOv8_CBAM_Fracture_Detection
 ```
