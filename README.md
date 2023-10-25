@@ -18,5 +18,5 @@
 ```
 
 ```
-  streamlit run app.py
+  streamlit run application.py
 ```
