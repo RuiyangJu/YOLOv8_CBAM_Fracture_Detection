@@ -1,6 +1,7 @@
 import os
 import cv2
 import numpy as np
+from PIL import Image
 import streamlit as st
 import onnxruntime as ort
 from matplotlib.colors import TABLEAU_COLORS 
@@ -75,27 +76,30 @@ def post_process(img, output, score_threshold=0.3):
     return img, label_txt
 
 if __name__ == "__main__":
-    st.title('YOLOv8 Fracture Detection')
+    # st.title('Fracture Detection on X-ray Images')
 
-    st.subheader('You can use the example image we provided for testing if you do not have an X-ray image of the wrist injury:', divider='rainbow')
-    with open("example_1.png", "rb") as file:
+    image = Image.open('logo.jpg')
+    st.image(image)
+
+    st.subheader('You can use the example image we provided for testing if you do not have an x-ray image of the wrist injury:', divider='rainbow')
+    with open("example_1.png", "rb") as file_1, open("example_2.png", "rb") as file_2, open("example_3.png", "rb") as file_3:
         btn_1 = st.download_button(
                 label="Download Example-1 Image",
-                data=file,
+                data=file_1,
                 file_name="example_1.png",
                 mime="image/png"
-            )
-    with open("example_2.png", "rb") as file:
+        )
+
         btn_2 = st.download_button(
                 label="Download Example-2 Image",
-                data=file,
+                data=file_2,
                 file_name="example_2.png",
                 mime="image/png"
             )
-    with open("example_3.png", "rb") as file:
+
         btn_3 = st.download_button(
                 label="Download Example-3 Image",
-                data=file,
+                data=file_3,
                 file_name="example_3.png",
                 mime="image/png"
             )    
@@ -125,4 +129,4 @@ if __name__ == "__main__":
         )
 
     st.subheader('Please email us when you have any problems using this application:', divider='rainbow')
-    st.caption('Mr. RuiYang: :email: jryjry1094791442@gmail.com')
+    st.caption('Mr. RuiYang :email: : jryjry1094791442@gmail.com')
