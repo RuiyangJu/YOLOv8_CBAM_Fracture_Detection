@@ -6,6 +6,10 @@
 ```
 
 ```
+  cd YOLOv8_CBAM_Fracture_Detection
+```
+
+```
   pip install -r requirements.txt
 ```
 
