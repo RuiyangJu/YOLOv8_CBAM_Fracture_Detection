@@ -78,13 +78,27 @@ if __name__ == "__main__":
     st.title('YOLOv8 Fracture Detection')
 
     st.subheader('You can use the example image we provided for testing if you do not have an X-ray image of the wrist injury:', divider='rainbow')
-    with open("example.png", "rb") as file:
-        btn = st.download_button(
-                label="Download Example Image",
+    with open("example_1.png", "rb") as file:
+        btn_1 = st.download_button(
+                label="Download Example-1 Image",
                 data=file,
-                file_name="example.png",
+                file_name="example_1.png",
                 mime="image/png"
             )
+    with open("example_2.png", "rb") as file:
+        btn_2 = st.download_button(
+                label="Download Example-2 Image",
+                data=file,
+                file_name="example_2.png",
+                mime="image/png"
+            )
+    with open("example_3.png", "rb") as file:
+        btn_3 = st.download_button(
+                label="Download Example-3 Image",
+                data=file,
+                file_name="example_3.png",
+                mime="image/png"
+            )    
     
     st.subheader('Please upload the x-ray image before you perform fracture detection:', divider='rainbow')
     uploaded_file = st.file_uploader("Upload the image file", type=["png", "bmp", "jpg", "jpeg", "gif"])
