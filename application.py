@@ -1,10 +1,13 @@
 import os
 import cv2
+import wget
 import numpy as np
 from PIL import Image
 import streamlit as st
 import onnxruntime as ort
 from matplotlib.colors import TABLEAU_COLORS 
+
+wget.download("https://github.com/RuiyangJu/YOLOv8_CBAM_Fracture_Detection/releases/download/Example_Model/example_model.onnx", "example_model.onnx")
 
 ALLOWED_EXTENSIONS = {"txt", "pdf", "bmp", "png", "jpg", "jpeg", "gif"}
 h, w = 640, 640
