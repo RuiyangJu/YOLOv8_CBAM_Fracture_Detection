@@ -1,4 +1,4 @@
-gdown
+wget
 onnx
 onnxruntime
 numpy
