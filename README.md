@@ -25,4 +25,7 @@ You can use our app on your local PC by running it in the following step:
 
 ### Online Available:
 You can access our app via the following URL:
+```
 https://fracture-detection-yolo.streamlit.app/
+```
+The detailed code for this version is available on the branch web.
