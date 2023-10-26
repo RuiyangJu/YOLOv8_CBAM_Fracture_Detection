@@ -3,3 +3,7 @@
 https://fracture-detection-yolo.streamlit.app/
 
 ## Our application is shown in the following example image:
+
+<p align="center">
+<img src="webapp.jpg" width="480" title="example">
+</p>
