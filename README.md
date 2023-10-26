@@ -18,7 +18,7 @@ Use gdown to download the trained model from our GitHub:
 ```
 
 ### Run
-
+You can use our app on your local PC by running it in the following step:
 ```
   streamlit run application.py
 ```
