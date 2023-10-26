@@ -22,3 +22,5 @@ You can use our app on your local PC by running it in the following step:
 ```
   streamlit run application.py
 ```
+
+### Online Available:
