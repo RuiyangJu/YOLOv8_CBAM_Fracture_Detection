@@ -18,8 +18,7 @@ Use gdown to download the trained model from our GitHub:
 ```
 
 ### Run
-Before you run the webapp, you should put the `example_model.onnx` to the `webapp` floder.
-And then you can use this app on your local PC by running it in the following step:
+You can use our app on your local PC by running it in the following step:
 ```
   streamlit run application.py
 ```
